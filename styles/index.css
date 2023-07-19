@@ -80,3 +80,73 @@ padding-right: 5px;
 header{
 height: 130px;
 }
+
+
+/* main section */
+main{
+    margin-left: 240px;
+    margin-right: 240px;
+}
+.second-icon{
+    display: flex;
+    padding-right: 5px;
+    margin-bottom: 20px;
+}
+.second-heading{
+    margin-top: 148px;
+    color: #0B0223;
+text-align: center;
+font-size: 48px;
+font-weight: 600;
+text-transform: uppercase;
+
+}
+.goat{
+    text-align: center;
+font-size: 95px;
+font-weight: 800;
+text-transform: uppercase;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+margin-bottom: 25px;
+}
+.second-icon-des{
+    color: #534C64;
+text-align: center;
+font-size: 20px;
+font-weight: 500;
+text-transform: lowercase;
+padding-left: 10px;
+}
+
+.second-btn{
+    margin-top: 20px;
+    border: 48px;
+    display: inline-flex;
+padding: 21px 40px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 48px;
+margin-right: 20px;
+}
+
+.second-btn-txt{
+    color: #FFF;
+font-size: 20px;
+font-weight: 600;
+text-transform: uppercase;
+}
+#one{
+    background-color: #FF42A5;
+}
+#two{
+    background-color: #4EC5F7;
+}
+
+.second{
+    display: flex;
+    justify-content: space-between;
+}
+
