@@ -1,0 +1,82 @@
+/* work sans */
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Work+Sans:wght@600;700&display=swap');
+
+*{
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Work Sans', sans-serif;
+margin: 0px;
+padding: 0px;
+}
+
+
+/* Header nav bar */
+
+.frame{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+}
+
+.frame-img{
+    width: 90px;
+    height: 44px;
+}
+
+.gamer-txt{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    color: #0B0223;
+}
+.gamer-pink{
+    color: #FF42A5;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 38px;
+    margin-left: 240px;
+    margin-right: 240px;
+}
+
+.menu-option{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    
+}
+
+.menu{
+    color: #3C354F;
+text-align: center;
+font-size: 18px;
+font-weight: 500;
+justify-items: center;
+}
+.menu-icon{
+    cursor: pointer;
+    padding-left: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.menu-btn{
+    width: 262px;
+height: 56px;
+color: #3C354F;
+text-align: center;
+font-size: 18px;
+font-weight: 500;
+border-radius: 8px;
+background-color: rgba(11, 2, 35, 0.10);
+border: none;
+padding-right: 5px;
+}
+
+header{
+height: 130px;
+}
