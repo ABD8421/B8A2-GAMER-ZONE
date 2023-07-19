@@ -30,8 +30,9 @@ padding: 0px;
     font-weight: 700;
     color: #0B0223;
 }
-.gamer-pink{
+.pink{
     color: #FF42A5;
+    
 }
 
 
@@ -150,3 +151,35 @@ text-transform: uppercase;
     justify-content: space-between;
 }
 
+/* play instantly section */
+
+.play-text-head{
+    color: #0B0223;
+font-size: 48px;
+font-weight: 700;
+line-height: 60px;
+}
+.play-text-des{
+    color: #534C64;
+text-align: right;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+}
+.playin{
+    margin-left: 190px;
+}
+.play-instantly{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.cat{
+    position: relative;
+    top: -215px;
+    left: -145px;
+}
+
+/*  */
