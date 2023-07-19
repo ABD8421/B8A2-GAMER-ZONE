@@ -131,6 +131,7 @@ align-items: flex-start;
 gap: 10px;
 border-radius: 48px;
 margin-right: 20px;
+cursor: pointer;
 }
 
 .second-btn-txt{
@@ -151,6 +152,49 @@ text-transform: uppercase;
     justify-content: space-between;
 }
 
+/* ONLINE GAMES SECTION */
+.online-game{
+    margin-top: 200px;
+    text-align: center;
+}
+.on-game{
+    color: #0B0223;
+font-size: 48px;
+font-weight: 700;
+}
+
+.para-font{
+    color: #534C64;
+text-align: center;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+}
+
+
+.main-img-sec{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5px;
+  
+}
+.online-image {
+    display: block;
+    width: 300px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    transition: filter 0.3s ease; /* Add a smooth transition effect */
+  }
+  
+  .online-image:hover {
+    filter: brightness(0.5); /* Apply a darker effect on hover */
+    cursor: pointer;
+    background-image: url('../play-button\ 1.jpg');
+  }
+
+
 /* play instantly section */
 
 .play-text-head{
@@ -166,7 +210,7 @@ font-size: 18px;
 font-weight: 400;
 line-height: 30px; /* 166.667% */
 }
-.playin{
+.playing{
     margin-left: 190px;
 }
 .play-instantly{
@@ -182,4 +226,3 @@ line-height: 30px; /* 166.667% */
     left: -145px;
 }
 
-/*  */
