@@ -371,6 +371,7 @@ font-weight: 500;
     }
     .image-sec{
         align-items: center;
+        margin-left: 200px;
     }
     .play-instantly{
         flex-direction: column;
@@ -380,17 +381,17 @@ font-weight: 500;
         margin-left: 300px;
     }
     .game-section1{
-        margin-left: 100px;
+        margin-left: 300px;
     }
     .game-section2{
-        margin-left: 100px;
+        margin-left: 300px;
     }
    footer{
-    width: 700px;
+    width: 800px;
    }
    .footer-list{
     width: 600px;
-    margin-left: 70px;
+    margin-left: 120px;
 }
 .social-list{
     margin-left: 180px;
