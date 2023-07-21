@@ -336,3 +336,124 @@ text-align: center;
 font-size: 16px;
 font-weight: 500;
 }
+
+/* mobile devices */
+
+@media screen and (max-width: 576px) {
+    
+    header{
+        margin: 0px;
+        margin-left: 20%;
+        padding: 0px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .second{
+        flex-wrap: wrap;
+        margin-left: 100px;
+    }
+    main{
+        margin-left: 100px;
+    }
+    .big-img{
+        width: auto;
+        height: auto;
+        margin-right: 0px;
+    }
+    .online-section{
+     margin-left: 200px;
+       }
+    .main-img-sec{
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 30%;
+    }
+    .image-sec{
+        align-items: center;
+    }
+    .play-instantly{
+        flex-direction: column;
+        margin-left: 250px;
+    }
+    .horse-img,.cat{
+        margin-left: 300px;
+    }
+    .game-section1{
+        margin-left: 100px;
+    }
+    .game-section2{
+        margin-left: 100px;
+    }
+   footer{
+    width: 700px;
+   }
+   .footer-list{
+    width: 600px;
+    margin-left: 70px;
+}
+.social-list{
+    margin-left: 180px;
+}
+.terms{
+    margin-left: 40px;
+
+}
+.footer{
+    width: 475px;
+}
+
+}
+
+
+/* tablet or medium */
+
+@media screen and (min-width:576px) and (max-width:960px) {
+
+    header{
+        margin: 0px;
+        padding-left: 0px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .big-img{
+        width: 400px;
+        height: 400px;
+        margin: 0px;
+    }
+    .second{
+        flex-wrap: wrap;
+        align-items: left;
+    }
+    .main-img-sec{
+        flex-wrap: wrap;
+    }
+    .play-instantly{
+        flex-direction: column;
+        margin-left: 100px;
+    }
+    .horse-img{
+        width: 536px;
+        height: 560px;
+    }
+    .cat{
+        width: 280px;
+        height: 330px;
+    }
+    .game-section2{
+        margin-left: 100px;
+    }
+    .footer-list{
+        width: 600px;
+        margin-left: 100px;
+    }
+    .social-list{
+        margin-left: 150px;
+    }
+    .terms{
+        margin-left: 20px;
+
+    }
+}
+
